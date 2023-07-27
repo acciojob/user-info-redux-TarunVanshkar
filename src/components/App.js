@@ -29,7 +29,7 @@ const App = () => {
         <label>Email:</label>
         <input type="email" value={email} onChange={handleEmailChange} />
       </div>
-      <div>
+      <div className="output">
         <p>Current values in store:</p>
         <p>Name - {name}</p>
         <p>Email - {email}</p>
